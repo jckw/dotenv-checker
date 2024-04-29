@@ -8,8 +8,7 @@
     "start:watch": "nodemon",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:copy-paste": "jscpd .",
-    "lint-fix": "npm run lint -- --fix",
-    "postinstall": "node ./src/scripts/add-script-to-package.js"
+    "lint-fix": "npm run lint -- --fix"
   },
   "bin": {
     "dotenv-checker": "./src/bin/cli.js"
